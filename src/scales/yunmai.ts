@@ -95,7 +95,10 @@ export class YunmaiScaleAdapter
     const name = (device.localName || '').toLowerCase();
     if (!name.includes('yunmai')) return false;
 
-    const mini = name.includes('ism') || name.includes('isse');
+    const mini =
+  name.includes('ism') ||
+  name.includes('isse') ||
+  name.includes('isc2s');
     const address = normalizeAddress(device.address);
     if (address) {
       if (this.miniByAddress.size >= MINI_CACHE_MAX && !this.miniByAddress.has(address)) {
