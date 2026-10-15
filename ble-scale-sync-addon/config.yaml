@@ -1,8 +1,8 @@
-name: BLE Scale Sync
+name: BLE Scale Sync Yunmai Test
 # x-release-please-start-version
 version: 1.33.0
 # x-release-please-end
-slug: ble-scale-sync
+slug: ble_scale_sync_yunmai_test
 description: >-
   Read BLE smart scales and export to Garmin Connect, MQTT (HA auto-discovery),
   InfluxDB, and more
