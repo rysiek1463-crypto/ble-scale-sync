@@ -10,5 +10,5 @@
 # running; retrying once the image exists succeeds.
 build_from:
   amd64: ghcr.io/kristianp26/ble-scale-sync:1.33.0 # x-release-please-version
-  aarch64: ghcr.io/kristianp26/ble-scale-sync:1.33.0 # x-release-please-version
+  aarch64: ghcr.io/rysiek1463-crypto/ble-scale-sync:yunmai-test
   armv7: ghcr.io/kristianp26/ble-scale-sync:1.33.0 # x-release-please-version
